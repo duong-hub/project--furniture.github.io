@@ -1,0 +1,26 @@
+/* Begin Jpage */
+.holder {
+    margin: 0;
+    text-align: center;
+    clear: both;
+    position: relative;
+    top: 2px;
+}
+.holder a{font-size: 13px;cursor: pointer !important;margin: 0 1px;color: #000;width: 24px;height: 24px;
+	display: inline-block;vertical-align: top;box-sizing: border-box;background-color: #fff;text-align: center;
+	line-height: 34px;font-family: 'UTM_Avo';font-weight: bold}
+.holder a:hover, .holder a.jp-current, a.jp-current:hover{color: #000; font-family: helb;background: none !important}
+.holder a.jp-first, .holder a.jp-last{width: auto;padding: 0px 10px; display: none;}
+.holder a.jp-current, a.jp-current:hover{color: #000; font-family: helb; background: none !important}
+.holder span{margin: 0 5px;}
+ul.jpage_items{list-style: none;padding: 0px;margin: auto;min-height: 79vh ;}
+ul.jpage_items > li{float: left;margin-bottom: 45px;}
+ul.jpage_items > li:nth-child(3n+1){clear: both;}
+ul.jpage_items > li:nth-child(3n){margin-right: 0px;}
+ul.jpage_items > li:nth-child(4n), ul.jpage_items > li:nth-child(5n), ul.jpage_items > li:nth-child(6n){margin-bottom: 30px;}
+.customBtns{position:relative;}
+.arrowPrev,.arrowNext{width:29px;height:29px;position:absolute;top:55px;cursor:pointer;}
+.arrowPrev{background-image:url('../../images/back.gif');left: 0px;}
+.arrowNext{background-image:url('....//images/next.gif');right: 0px;}
+.arrowPrev.jp-disabled,.arrowNext.jp-disabled{display: none;}
+/* End Jpage */
